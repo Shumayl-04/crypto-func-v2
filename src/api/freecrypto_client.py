@@ -4,6 +4,7 @@ from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
 
+
 class FreeCryptoClient:
     def __init__(self):
         if not API_KEY:
